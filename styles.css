@@ -1,0 +1,102 @@
+/* Основной стиль */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282828;
+    color: #F0FFFF;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    color: #D5D5D5;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #D5D5D5;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+a {
+    color: #D5D5D5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: 0;
+    border-top: 4px solid #FF0000;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: decimal;
+    text-align: justify;
+}
+
+.highlight {
+    font-size: 1.2em;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.center {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Задает промежуток между элементами */
+    flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку, если не хватает места */
+}
+
+.post {
+    flex: 1;
+    min-width: 300px; /* Минимальная ширина для адаптивности */
+    margin: 10px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Задает промежуток между элементами меню */
+    margin-bottom: 20px;
+}
+
+.menu a {
+    padding: 10px 20px;
+    background-color: #444;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #555;
+}
