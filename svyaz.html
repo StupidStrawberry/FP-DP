@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>СКиПД</title>
+    <meta name="description" content="Смешные картинки и пасты с двача — собрание лучших мемов, анекдотов и забавных историй с популярного русскоязычного имиджборда.">
+    <meta name="keywords" content="смешные картинки, пасты, двач, мемы, анекдоты, юмор, имиджборд, забавные истории, русскоязычный юмор">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <!-- Для Glyphicons -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="container text-center">
+        <div>
+            <h1>Смешные картинки и пасты с двача - СКиПД</h1>
+        </div>
+    </header>
+    <!-- Навигационное меню -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">СКиПД</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Пасты <span class="glyphicon glyphicon-user"></span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="svyaz.html">Скинуть пасту <span class="glyphicon glyphicon-arrow-right"></span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h2 class="text-center">Предложить пасту</h2>
+            <form>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><span class="glyphicon glyphicon-user"></span></span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Ваше имя">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><span class="glyphicon glyphicon-comment"></span></span>
+                    </div>
+                    <textarea class="form-control" placeholder="Теги к пасте"></textarea>
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><span class="glyphicon glyphicon-pencil"></span></span>
+                    </div>
+                    <textarea class="form-control" placeholder="Вашa паста"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Отправить <span class="glyphicon glyphicon-send"></span></button>
+            </form>
+        </div>
+    </div>
+    <hr>
+
+    <footer class="footer mt-auto py-3 bg-dark">
+        <div class="container text-center">
+            <p class="text-light">&copy; 2023 СКиПД. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <div class="row justify-content-center">
+        <div class="col-12 text-center">
+            <h2 id="links">Полезные ссылки</h2>
+            <ul class="list-unstyled">
+                <li><a href="https://2ch.hk/" target="_blank">2ch.hk <span class="glyphicon glyphicon-link"></span></a></li>
+                <li><a href="https://lurkmore.to/" target="_blank">Lurkmore <span class="glyphicon glyphicon-link"></span></a></li>
+                <li><a href="https://bash.im/" target="_blank">Bash.im <span class="glyphicon glyphicon-link"></span></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <a href="#" id="scrollToTopBtn" class="btn btn-dark" title="Наверх"><span class="glyphicon glyphicon-chevron-up"></span></a>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

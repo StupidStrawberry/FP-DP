@@ -5,6 +5,9 @@ body {
     color: #FFFFFF;
     margin: 0;
     padding: 0;
+	position: relative;
+    min-height: 100vh;
+            padding-bottom: 50px; /* Высота футера */
 }
 
 header {
